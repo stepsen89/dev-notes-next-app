@@ -8,10 +8,10 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <Link href='/'>All</Link>
+            <Link href='/'>Home</Link>
           </li>
           <li>
-            <Link href='/new-meetup'>Add New Note</Link>
+            <Link href='/new-note'>Add New Note</Link>
           </li>
         </ul>
       </nav>
