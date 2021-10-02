@@ -1,5 +1,8 @@
 import classes from "../styles/LearnMode.module.scss";
 import Card from "../components/Card";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleRight, faAngleLeft } from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
 
 const DUMMY_LEARNINGS = [
   {
@@ -26,14 +29,42 @@ const DUMMY_LEARNINGS = [
 ];
 
 function LearnMode() {
+  const [index, setIndex] = useState(0);
+
+  const slideLeft = () => {
+    console.log(index);
+    if (index - 1 >= 0) {
+      setIndex(index - 1);
+    }
+  };
+  const slideRight = () => {
+    if (index + 1 <= DUMMY_LEARNINGS.length - 1) {
+      setIndex(index + 1);
+    }
+  };
+
   return (
     <div>
       <div className={classes.carousel}>
-        {DUMMY_LEARNINGS.map((card, index) => {
-          let position =
-            index > 0 ? "nextCard" : index === 0 ? "activeCard" : "prevCard";
-          return <Card key={card.id} {...card} cardStyle={position} />;
-        })}
+        <div className={classes["card-container"]}>
+          <div className={classes.block}></div>
+
+          <FontAwesomeIcon
+            icon={faAngleLeft}
+            onClick={slideLeft}
+            className={classes.leftIcon}
+          />
+          <FontAwesomeIcon
+            icon={faAngleRight}
+            onClick={slideRight}
+            className={classes.rightIcon}
+          />
+          {DUMMY_LEARNINGS.map((card, n) => {
+            let position =
+              n > index ? "nextCard" : n === index ? "activeCard" : "prevCard";
+            return <Card key={card.id} {...card} cardStyle={position} />;
+          })}
+        </div>
       </div>
     </div>
   );
