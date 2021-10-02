@@ -13,6 +13,12 @@ function Header() {
           <li>
             <Link href='/new-note'>Add New Note</Link>
           </li>
+          <li>
+            <Link href='/notes'>All Notes</Link>
+          </li>
+          <li>
+            <Link href='/learn-mode'>Learn mode</Link>
+          </li>
         </ul>
       </nav>
     </header>
