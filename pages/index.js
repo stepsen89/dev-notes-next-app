@@ -1,8 +1,9 @@
-import Head from "next/head";
-import Image from "next/image";
-import Layout from "../components/shared/Layout";
-import styles from "../styles/Home.module.css";
+import Layout from "../components/Layout";
 
-export default function Home() {
-  return <div> hello from home </div>;
+export default function HomePage() {
+  return (
+    <Layout>
+      <div className='bg-blue-500'> hello from home </div>
+    </Layout>
+  );
 }
