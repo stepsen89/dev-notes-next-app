@@ -1,4 +1,4 @@
-import Head from "next/head";
+import Head from "next/head"; // for meta tags, description etc. as in pure html
 import Header from "./Header";
 
 export default function Layout({ title, children, keywords, description }) {

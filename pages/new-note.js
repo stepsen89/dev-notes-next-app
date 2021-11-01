@@ -11,21 +11,22 @@ const dummy = {
 
 function NewNote() {
   return (
-    <Form className={classes.form}>
-      <Form.Field>
-        <label>Title</label>
-        <input />
-      </Form.Field>
-      <Form.Field>
-        <label>Description</label>
-        <input placeholder='Last Name' />
-      </Form.Field>
-      <Form.Field>
-        <label>Link</label>
-        <input placeholder='Last Name' />
-      </Form.Field>
-      <Button type='submit'>Submit</Button>
-    </Form>
+    // <Form className={classes.form}>
+    //   <Form.Field>
+    //     <label>Title</label>
+    //     <input />
+    //   </Form.Field>
+    //   <Form.Field>
+    //     <label>Description</label>
+    //     <input placeholder='Last Name' />
+    //   </Form.Field>
+    //   <Form.Field>
+    //     <label>Link</label>
+    //     <input placeholder='Last Name' />
+    //   </Form.Field>
+    //   <Button type='submit'>Submit</Button>
+    // </Form>
+    <div> Hello </div>
   );
 }
 

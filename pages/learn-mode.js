@@ -45,7 +45,7 @@ function LearnMode() {
 
   return (
     <div>
-      <div className={classes.carousel}>
+      {/* <div className={classes.carousel}>
         <div className={classes["card-container"]}>
           <div className={classes.block}></div>
 
@@ -65,7 +65,8 @@ function LearnMode() {
             return <Card key={card.id} {...card} cardStyle={position} />;
           })}
         </div>
-      </div>
+      </div> */}
+      <h2> Hello from Learn Mode</h2>
     </div>
   );
 }
