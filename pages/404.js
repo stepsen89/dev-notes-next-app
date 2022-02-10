@@ -12,9 +12,10 @@ export default function NotFoundPage() {
           height={400}
           alt='Logo'
         />
-        <h2 className='text-4xl text-gray-400 mb-5'>
-          This page does not exist
+        <h2 className='text-4xl text-gray-800 mb-5'>
+          Oooops ... this page does not exist {`:'(`}
         </h2>
+        <Link href="/"> Go Back Home </Link>
       </div>
     </Layout>
   );

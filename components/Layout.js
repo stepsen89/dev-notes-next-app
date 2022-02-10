@@ -1,4 +1,4 @@
-import Head from "next/head"; // for meta tags, description etc. as in pure html
+import Head from "next/head";
 import Header from "./Header";
 
 export default function Layout({ title, children, keywords, description }) {
@@ -17,7 +17,7 @@ export default function Layout({ title, children, keywords, description }) {
 }
 
 Layout.defaultProps = {
-  title: "Welcome to Tech Notes",
-  keywords: "Tech, notes, coding, development, learning",
+  title: "Welcome to Dev Notes",
+  keywords: "Tech, notes, coding, development, learning, cheatsheet, shortcut, improvement",
   description: "The best place to take your own tech notes and structure them",
 };

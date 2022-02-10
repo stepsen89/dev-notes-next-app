@@ -1,19 +1,13 @@
-import Link from "next/Link";
+import Link from "next/link";
 import Image from "next/image";
 
 export default function Header() {
   return (
-    <header>
-      <div className='container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center'>
+    <header className="bg-gray-900 text-gray-100">
+      <div className='container mx-auto flex flex-wrap p-7 pt-9 flex-col md:flex-row items-center'>
         <Link href='/'>
-          <a className='flex md:w-1/5  title-font font-medium items-center md:justify-start mb-4 md:mb-0'>
-            {" "}
-            <Image
-              src='/favicon-32x32.png'
-              alt='Logo'
-              width={40}
-              height={40}
-            />{" "}
+          <a className='flex md:w-1/5 text-2xl font-medium items-center md:justify-start mb-4 md:mb-0 tracking-wider'>
+            DEV NOTES
           </a>
         </Link>
         <nav className='flex flex-wrap md:w-4/5 items-center justify-end text-base md:ml-auto'>

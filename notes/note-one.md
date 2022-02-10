@@ -3,7 +3,7 @@ title: 'Deploying Kubernetes'
 date: 'October 5, 2021'
 excerpt: 'Deploying Kubernetes cluster with AWS'
 cover_image: '/images/posts/img3.jpg'
-category: 'Kubernetes'
+category: ['test', 'test2']
 author: 'Stephanie Sarah'
 author_image: 'https://randomuser.me/api/portraits/women/12.jpg'
 ---
