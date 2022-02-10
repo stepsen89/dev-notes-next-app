@@ -1,11 +1,12 @@
 ---
-title: 'Deploying Kubernetes'
-date: 'October 5, 2021'
-excerpt: 'Deploying Kubernetes cluster with AWS'
-cover_image: '/images/posts/img3.jpg'
-category: ['test', 'test2']
-author: 'Stephanie Sarah'
-author_image: 'https://randomuser.me/api/portraits/women/12.jpg'
+title: "Deploying Kubernetes"
+date: "October 5, 2021"
+excerpt: "Deploying Kubernetes cluster with AWS"
+cover_image: "/images/posts/img3.jpg"
+tags: ["Kubernetes", "test2"]
+category: "AWS"
+author: "Stephanie Sarah"
+author_image: "https://randomuser.me/api/portraits/women/12.jpg"
 ---
 
 # Deploying Kubernetes

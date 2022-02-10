@@ -1,11 +1,12 @@
 ---
-title: 'Equality and types'
-date: 'February 4, 2022'
-excerpt: 'An overview of JS types and equality'
-cover_image: '/images/posts/img1.jpg'
-category: 'JavaScript'
-author: 'John Doe'
-author_image: 'https://randomuser.me/api/portraits/men/11.jpg'
+title: "Equality and types"
+date: "February 4, 2022"
+excerpt: "An overview of JS types and equality"
+cover_image: "/images/posts/img1.jpg"
+tags: ["JavaScript"]
+category: "JavaScript"
+author: "John Doe"
+author_image: "https://randomuser.me/api/portraits/men/11.jpg"
 ---
 
 # Types and Equality

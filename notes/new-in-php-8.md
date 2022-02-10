@@ -1,11 +1,12 @@
 ---
 title: "What's New In PHP 8?"
-date: 'May 7, 2021'
-excerpt: 'In this article a overview of the topic Accessibility is given'
-cover_image: '/images/posts/img4.jpg'
-category: 'PHP'
-author: 'Sara Johnson'
-author_image: 'https://randomuser.me/api/portraits/women/12.jpg'
+date: "May 7, 2021"
+excerpt: "In this article a overview of the topic Accessibility is given"
+cover_image: "/images/posts/img4.jpg"
+tags: ["PHP"]
+category: "PHP"
+author: "Sara Johnson"
+author_image: "https://randomuser.me/api/portraits/women/12.jpg"
 ---
 
 <!-- Markdow generator - https://jaspervdj.be/lorem-markdownum/ -->
