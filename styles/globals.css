@@ -4,3 +4,32 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
 
+p {
+  margin: 15px 0;
+  line-height: 1.8;
+}
+
+.note-text ul,
+ol {
+  font-size: 110%;
+  line-height: 2.3;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.note-text pre {
+  background: #f4f4f4;
+  padding: 20px;
+  margin: 20px 0;
+  line-height: 2.3;
+}
+
+.note-text h1 {
+  font-size: 35px;
+}
+
+.note-text h2,
+.note-text h3,
+.note-text h4 {
+  font-size: 27px;
+}

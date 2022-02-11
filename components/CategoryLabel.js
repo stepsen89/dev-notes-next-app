@@ -7,6 +7,8 @@ function CategoryLabel({ children, color }) {
     Python: "green",
     PHP: "purple",
     Ruby: "red",
+    AWS: "purple",
+    React: "red",
   };
 
   let background = `bg-${colorKey[children]}-600`;
